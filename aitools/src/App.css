@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  position:'relative';
+}
+.fixed{
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  padding-bottom: 20px;
+}
+.fixed input{
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+}
+.result {
+  width: 80%;
+  padding: 100px;
+  margin-left: auto;
+}
+button{
+  position: absolute;
+  top: 40%;
+  right:120px;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  z-index: 2333;
+}
